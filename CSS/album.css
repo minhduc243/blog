@@ -1,0 +1,39 @@
+h1{
+	text-align:center
+}
+h2{
+	text-align:center;
+	font-size:30px;
+	color: #e05e2b;
+}
+.nhom1,.nhom2{
+	float: left;
+	width: 32%;
+	border: 4px solid #ffffff;
+	margin-top: 20px;
+}
+
+.nhom1 {
+	transition: all 0.5s ease;
+}
+.nhom2 {
+	overflow: hidden;
+}
+
+.nhom2 img {
+	transition: all 0.5s linear;
+}
+.nhom1:hover{
+	border: 4px solid #18377B;
+	transform: translate(0, -5px);
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.7);
+}
+.nhom2:hover{
+	border: 4px solid #18377B;
+}
+ .nhom2:hover img{
+	 transform: scale(1.2);
+ }
+.sg1, .sg2, .nt1, .nt2 {
+	margin-right:2%;
+}
